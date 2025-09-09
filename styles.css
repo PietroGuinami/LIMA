@@ -1,4 +1,68 @@
 /* Seletor universal */
 *{
     margin: 0;
+}/* seletor universal */
+* {
+    /* Zera amargem do documento */
+    margin: 0;
+    /* gera um espaçamento interno */
+    padding: 0;
+
+}
+/* seleto se tipo, aplica o css em uma tag */
+h5{
+    color: blueviolet !important;
+}
+
+/* seletor de classe */
+.titulo{
+    background-color: rgb(0, 0, 0);
+    color: rgb(183, 129, 222);
+    /* aplica margin em todas laterais */
+    /* margin: 10px; */
+    /* margin-left: 20px; */
+    /* Aplico o espaçamento no superior e inferior */
+    /* e aplicou tambem nas laterais esquerda e direita */
+    /* margin: 20px 0; */
+    margin: 0 0 0 10px;
+    padding: 10px;
+    padding: 0 10px;
+
+}
+
+p{
+    background-color: azure;
+}
+.imagem{
+    /* aplicando tamnho em largura */
+    width: 200px;
+    /* aplicando atamenho em altura */
+    height: 200px;
+}
+.formulario{
+    background-color: darkgray;
+    width: 200px;
+    margin: 0 auto;
+   
+}
+
+.input-nome{
+    /*remover as bordas*/
+    border: none;
+    /*aplica curvatura no canto das bordas*/
+    border-radius: 2px;
+    margin-left: 10px;
+    /* definir opacidade no campo texto*/
+    opacity: 70%;
+
+}
+.botao{
+    background-color: aqua;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Gerogia, 'Time New Roman', Times, serif;
+    font-size: large;
+    /* Aplicanco sombra no texto posição x, y blur */
+    text-shadow: 5px 2px 5px rgb(212, 14, 57, 0.9);
 }
