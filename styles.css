@@ -66,3 +66,45 @@ p{
     /* Aplicanco sombra no texto posição x, y blur */
     text-shadow: 5px 2px 5px rgb(212, 14, 57, 0.9);
 }
+
+.checar{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    /* Modifi o tipo do cursor */
+    cursor: pointer;
+    /* Limpar configuraçoes aparencia */
+    appearance: none;
+    background-color: #fff;
+    border: 2px solid #0dff00;
+    border-radius:  5px;
+}
+.checar:checked{
+    background-color: #0dff00;
+
+}
+.email{
+    width: 300px;
+    padding: 5px;
+    margin-left: 5px;
+    border: 2px solid #fff;
+}
+.selecao{
+    appearance: none;
+    width: 300px;
+    font-size: 16px;
+    color: #000000;
+    background-color: f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /* Sombra no input */
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+.radio{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #c20000;
+}
+/* Pseudonicoclasse, quando do objeto ele mudar ele atribui eles atribui outras propriodade*/
+.radios

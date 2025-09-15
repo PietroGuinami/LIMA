@@ -153,17 +153,66 @@
 <h5 class="titulo">Trabalhando com CSS</h5>
 <p>Visualizando o funcionamento da margem</p>
 <img class="imagem" src="./cachorrocaramelogordo.png" alt="">
-</body>
 <h4> criando nosso  formulario</h4>
 <form class="formulario">
     <label>senha</label>
     <!--inserir um campo texto digitavel-->
     <input type="text" class="input-nome">
     <!-- Tipo senha -->
-     <input class="input-nome" placeholder="Digitei um senha" type="password">
-     <input href="#" type="button" class="botao" value="Entrar">
-</form>
+    <input class="input-nome" placeholder="Digitei um senha" type="password">
+    <input href="#" type="button" class="botao" value="Entrar">
+    <br>
+    <!-- Incluindo checkbox(caixa de opcçôes) -->
+     <input type="checkbox" class="checar"> Eu tenho uma bicicleta <br>
+     <input type="checkbox" class="checar"> Eu tenho uma Yamaha R15 <br>
+     <input type="checkbox" class="checar"> Eu tenho um Toyota Supra MK4 1993 Roxo<br>
+    
+     <!-- incluindo input de cor -->
+       <input type="color" value="000000">
 
-</html>
+      <!-- inserindo data -->
+       <br><label for="">Data de nacimento</label>
+       <input type="date">
+       <input type="datetime-local">
 
+       <!-- Input do tipo email -->
+        <input type="email" placeholder="Digite seu email" class="email"> 
+        <!-- Input de seleção -->
+         <select>
+            <!-- O atributo value, enviará o valor do item selecionado -->
+             <!-- para o servidor -->
+              <option value=""> Selecione a escolaridade</option>
+              <option value="primeiro médio"> 1° Médio</option>
+              <option value="segundo médio"> 2° Médio</option>
+              <option value="terceiro médio"> 3° Médio</option>
 
+              <select class="seleção">
+              <option value=""> Selecione a escolaridade</option>
+              <option value="primeiro médio"> 1° Médio</option>
+              <option value="segundo médio"> 2° Médio</option>
+              <option value="terceiro médio"> 3° Médio</option>
+
+              <!-- Input radio -->
+               <p>radio button</p>
+               <input type="radio" name="tamanho">Pequeno
+               <input type="radio" name="tamanho">Medio
+               <input type="radio" name="tamanho">Grande
+               <input type="radio" name="tamanho">outro
+
+               <!-- Criar um grupo de componwntes -->
+                <fieldset>
+                    <legend>Descrição</legend>
+                    <textarea name="" id=""></textarea>
+                </fieldset>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+               <form>
+
+               </form>
+
+         </select>
+    </body>
+    
+
+        </html>
