@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}.formulario{
+    font-size: 20;
+    background-color: rgb(154, 154, 154);
+    width: 200px;
+    margin: 0 auto;
+   text-align: center;
+}
+
+.input-nome{
+    /*remover as bordas*/
+    border: none;
+    /*aplica curvatura no canto das bordas*/
+    border-radius: 2px;
+    margin-left: 10px;
+    /* definir opacidade no campo texto*/
+    opacity: 70%;
+
+}
+.botao{
+    background-color: rgb(154, 154, 154);
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Gerogia, 'Time New Roman', Times, serif;
+    font-size: large;
+}.selecao{
+    appearance: none;
+    width: 300px;
+    font-size: 16px;
+    color: #000000;
+    background-color: f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /* Sombra no input */
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}

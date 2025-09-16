@@ -5,9 +5,11 @@
     background-color: rgb(154, 154, 154);
     width: 200px;
     margin: 0 auto;
-   text-align: center;
+    text-align: center;
 }
 
+  
+font-size: 20;
 .input-nome{
     /*remover as bordas*/
     border: none;

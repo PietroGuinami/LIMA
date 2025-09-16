@@ -1,0 +1,49 @@
+.div-1{
+    background-color: blueviolet;
+}
+.div-2{
+    background-color: rgb(0, 255, 26);
+}
+.container{
+    border: 2px solid rgb(162, 0, 255);
+    /* limitar o tamanho do elemento */
+    max-width: 400px;
+    margin: 0 auto;
+}
+.img-tamanho{
+    width: 150px;
+    height: 150px;
+}
+.flex{
+    display: flex;
+}
+.alinhar-direita{
+    display: flex;
+    justify-content: right;
+}
+.alinhar-esquerda{
+    display: flex;
+    justify-content: left;
+}
+.alinhar-entre{
+    display: flex;
+    /* Aloca os elementos nas pontas e ajusta os elementos do centro */
+    justify-content: space-between;
+}
+.alinhar-redor{
+    display: flex;
+    /* distribui os intens com espaços ao redor deles */
+    justify-content: space-around;
+}
+.alinhar-coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quebra-linha{
+    display: flex;
+    /* colocar espaços entre os elementos */
+    gap: 10px;
+    /* quebrar os elementos para outra linha, caso não haja espaço suficiente */
+    flex-wrap: nowrap;
+}

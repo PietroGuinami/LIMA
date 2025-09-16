@@ -23,3 +23,4 @@ CREATE TABLE ATOR_FILME (
     FOREIGN KEY (id_ator) REFERENCES ATOR(id_ator),
     FOREIGN KEY (id_filme) REFERENCES FILME(id_filme)
 );
+
