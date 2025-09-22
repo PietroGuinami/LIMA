@@ -1,0 +1,33 @@
+*{
+    margin: 50;
+}
+* {
+    margin: 50;
+    padding: 50;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+h1{
+    color: rgb(83, 83, 255) !important;
+    text-align: center;
+}
+h4{
+    color: #c2c2c2;
+    text-align: center;
+}
+.card{
+    width: 350px;
+    height: 100px;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 6px black;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    transition: transform 0.3s ease;
+    flex: 0 0 auto; }
+.card-imag{
+    display: flex;
+    flex-direction: column;
+}
