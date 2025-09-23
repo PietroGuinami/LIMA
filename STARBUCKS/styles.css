@@ -1,24 +1,24 @@
 :root{
-    --cor-vermelho-ifood: #ea1d2c;
+    --cor-vermelho-logo: #2c8c64;
     --cor-cinza-texto: #575757;
-    --cor-cinza-borda: #e2e2e2;
+    --cor-cinza-borda: #bebbbb;
     --cor-fundo: #f7f7f7;
 }
 /* Zerando as propriedades do documento */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 3;
+    padding: 3;
 }
 
 body{
     /* Apliquei em todo o documento fonte, cor e cor fundo */
     font-family: 'Poppins', sans-serif;
     background-color: var(--cor-fundo);
-    color: var(--cor-cinza-texto);
+    color: var(--cor-vermelho-logo);
 }
 .cabecalho{
     background-color: #fff;
-    padding: 15px 0;
+    padding: 13px 0;
     border-bottom: 1px solid var(--cor-cinza-borda);
 }
 .logo{
@@ -40,7 +40,7 @@ body{
 .item{
     /* remover decoraçao da tag a */
     text-decoration: none;
-    color: var(--cor-cinza-texto);
+    color: var(--cor-cinza-borda);
     /* aplicando o negrito */
     font-weight: 600;
     padding: 8px 0;
@@ -49,8 +49,8 @@ body{
 
 .item:focus,
 .item:hover{
-    color: var(--cor-vermelho-ifood);
-    border-bottom-color: var(--cor-vermelho-ifood);
+    color: var(--cor-vermelho-logo);
+    border-bottom-color: var(--cor-vermelho-logo);
 }
 
 .buscar{
@@ -78,11 +78,11 @@ body{
 }
 .criar-conta{
     text-decoration: none;
-    color: var(--cor-vermelho-ifood);
+    color: var(--cor-cinza-texto);
     font-weight: 600;
 }
 .botao-entrar{
-    background-color: var(--cor-vermelho-ifood);
+    background-color: var(--cor-vermelho-logo);
     color: var(--cor-fundo);
     border: none;
     padding: 10px 20px;
