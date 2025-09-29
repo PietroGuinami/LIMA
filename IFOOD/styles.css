@@ -90,3 +90,16 @@ body{
     font-weight: 600;
     cursor: pointer;
 }
+.lojas{
+    margin: 30px;
+}
+.img-lojas{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 45%;
+}
+.r1{
+    display: flex;
+}
